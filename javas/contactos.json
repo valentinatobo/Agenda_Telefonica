@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Camila Mendez",
+        "telefono": "5674324",
+        "email": "camilam@gmail.com"
+    },
+    {
+        "nombre": "Andres Torres",
+        "telefono": "6785432",
+        "email": "torres_An@gmail.com"
+    },
+    {
+        "nombre": "Alejandra Diaz",
+        "telefono": "7896543",
+        "email": "alejita.diaz@gmail.com"
+    }
+]
+

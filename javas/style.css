@@ -1,0 +1,29 @@
+
+
+#Titulo{
+    background: #000;
+    border-color: aliceblue;
+    text-decoration-color: honeydew;
+    text-align: center;
+    padding: 10px;
+}
+
+#datos{
+    
+    border: black 1px solid;
+    height: 680px;
+    background-color: grey;
+    padding: 50px;
+}
+
+#listaContactos{
+    
+    border: black 1px solid;
+    height: 680px;
+    background-color: lightgray;
+    padding: 50px;
+}
+
+h1{
+    color: lavender;
+}
