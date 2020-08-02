@@ -12,10 +12,6 @@ $(document).ready(function(){
      
     });
 
-    $("a[name=crear]").click(crear);
-
-    $("a[name=buscar]").click(contactos);
-
 });
 
 
@@ -27,7 +23,6 @@ function cargarContactos(){
          success: function(data){
              for(let i=0; i<data.length; i++){
                  incluirContacto(data[i].nombre, data[i].telefono, data[i].email);
-
              }  
          }
      });
@@ -41,8 +36,8 @@ function incluirContacto(nombre, telefono, email){
     contactos.push(contacto);
  
 
-    let row = $('<div class="row" ></div>');
-    row.prepend('<div class="col-12"></div>')
+    let row = $('<div class="row " ></div>');
+    row.prepend('<div class="col-12 justify-content-center "></div>')
     row.find('.col-12').prepend('<div class="card mb-3" style="max-width: 500px;"></div>');
     row.find('.card').prepend('<div class="row no-gutters"></div>');
     row.find('.row ').prepend('<div class="col-md-4"></div>');
