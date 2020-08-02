@@ -1,29 +1,52 @@
-
-
-#Titulo{
-    background: #000;
-    border-color: aliceblue;
-    text-decoration-color: honeydew;
-    text-align: center;
-    padding: 10px;
+body{
+    background-color: rgb(143, 44, 44);
 }
 
-#datos{
-    
-    border: black 1px solid;
-    height: 680px;
-    background-color: grey;
-    padding: 50px;
+#info{
+    background:  rgb(-0,-0,-0,- 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(0,-0,-0, -0.568);
+    color: white;
 }
+
+.ingresar{
+    background: #222A3F;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 700!important;
+    color: white;
+    box-shadow: 0 0 30px rgb(0,0,0, 0.568);
+
+
+}
+
 
 #listaContactos{
     
     border: black 1px solid;
-    height: 680px;
+    height: 900px;
     background-color: lightgray;
     padding: 50px;
+    width: 900px;
 }
 
-h1{
-    color: lavender;
+
+
+h2{
+    color: rgb(14, 2, 70);
+}
+
+.card{
+    background-color: rgb(145, 162, 173);
+}
+
+h5{
+    color: rgb(12, 12, 41);
+}
+
+#creacion {
+    background: rgb(0,-0,-0, -0.568);
+    padding: 10px;
+    width: 500px;
 }
